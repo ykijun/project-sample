@@ -22,8 +22,18 @@
 
 	<main>
 		<h1>Sign up</h1>
-		
-		
+		<form id = "signup-form">
+			<input type = "text" id = "fullname" placeholder="Full Name" required>
+			<input type = "email" id = "email" placeholder="Email" required>
+			<input type = "password" id = "password" placeholder="Password" required>
+			<input type = "password" id = "confirm-password" placeholder="Confirm Password" required>
+			<select id = "user type" required>
+				<option value = ""> Select User Type</option>
+				<option value = "student">Student</option>
+				<option value = "alumni">Alumni</option>
+			</select>
+			<button type = "submit">Sign Up</button>
+		</form>
 	</main>
 
 	<footer>
